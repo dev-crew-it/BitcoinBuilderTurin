@@ -1,6 +1,6 @@
-## runin 👋
+## Builders Turin 👋
 
-**runin** (Bitcoin Builder Turin) is a monthly meetup focused on discussing product, design, and AI tools for individuals building on bitcoin. It is the Turin chapter of the Bitcoin Builder network. Everyone is welcome, whether you're an experienced product manager or designer, just starting out, or simply curious to learn.
+**Builders Turin** is a monthly meetup focused on discussing product, design, and AI tools for individuals building on bitcoin. It is the Turin chapter of the Bitcoin Builder network. Everyone is welcome, whether you're an experienced product manager or designer, just starting out, or simply curious to learn.
 
 Each month the agenda is community-generated. Have a topic? <!-- TODO(rebrand): add the Turin Twitter/X handle --> DM us on Twitter or submit a pull request to the relevant event file under the `content` folder.
 

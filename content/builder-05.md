@@ -1,11 +1,11 @@
 +++
-title = "runin 5"
+title = "Builders Turin 5"
 date = 2025-10-23
 +++
 
 ## Intro
 
-- Chatham housde rules. No photos/videos.
+- [Chatham House Rules](https://grok.com/share/bGVnYWN5LWNvcHk_0ddfe410-0f5a-466a-a2b4-835edd791e30). No photos/videos.
 - Welcome, [Vancouver ₿uilder](https://bitcoinbuildervan.github.io/website/)!
 - 10 second intros
   - Name, what you do, what you want to get out of ₿uilder

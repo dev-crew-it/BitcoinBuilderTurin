@@ -1,5 +1,5 @@
 +++
-title = "runin 1"
+title = "Builders Turin 1"
 date = 2025-06-26
 +++
 
@@ -7,7 +7,7 @@ date = 2025-06-26
 
 ## Intro (10 min)
 
-- Chatham House Rules — No photos/videos
+- [Chatham House Rules](https://grok.com/share/bGVnYWN5LWNvcHk_0ddfe410-0f5a-466a-a2b4-835edd791e30) — No photos/videos
 - This is our first ₿uilder! We’re very open to feedback and ideas on how to make these events great. Feel free to suggest ideas during the meetup or afterwards
 - Define ₿uilder and purpose for starting this event series
 - Anyone can be a ₿uilder! Vibe coding makes building apps approachable and intuitive

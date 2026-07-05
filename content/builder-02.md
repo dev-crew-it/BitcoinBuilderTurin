@@ -1,5 +1,5 @@
 +++
-title = "runin 2"
+title = "Builders Turin 2"
 date = 2025-07-24
 +++
 
@@ -7,7 +7,7 @@ date = 2025-07-24
 
 ## Intro (5 min)
 
-- Chatham house rules. No photos/videos.
+- [Chatham House Rules](https://grok.com/share/bGVnYWN5LWNvcHk_0ddfe410-0f5a-466a-a2b4-835edd791e30). No photos/videos.
 - Our 2nd event…review what we learned last time and applying to this one
 - Presidio Bitcoin design week in September https://event.bitcoin.design
 - Miami ₿uilder, and hoping to see more of these pop up around the world! 
