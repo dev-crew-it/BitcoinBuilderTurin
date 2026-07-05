@@ -1,6 +1,7 @@
 base_url = "https://bitcoinbuilderturin.xyz"
 title = "Builders Turin"
 description = "Builders Turin — a monthly meetup on product, design, and AI tools for building on bitcoin."
+theme = "builders-turin"
 compile_sass = false
 build_search_index = false
 generate_feeds = true
