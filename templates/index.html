@@ -1,22 +1,33 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p>
-  Builders Turin is a monthly meetup focused on discussing product, design, and AI tools for individuals building on bitcoin.
-  Everyone is welcome, whether you're an experienced product manager or designer, just starting out, or simply curious to learn.
-</p>
+<div class="wrap">
+  <div class="section-label">
+    <span class="h">EVENTS</span>
+    <span class="s">Eventi · tap to open</span>
+  </div>
 
-<!-- TODO(rebrand): replace with the Builders Turin logo (drop a file in static/ and reference it, e.g. /logo.png) -->
-<img src="https://avatars.githubusercontent.com/u/215772759?v=4" alt="Builders Turin Logo" style="max-width: 20%; height: auto;">
-
-<h2>Socratic Seminars</h2>
-<ul class="posts">
   {% for page in section.pages %}
-    <li>
-      <time>{{ page.date | date(format="%d %b %Y") }}</time>
-      »
-      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-    </li>
+  <a class="event" href="{{ page.permalink | safe }}">
+    <div class="event-head">
+      <div class="row">
+        <span class="badge">UPCOMING</span>
+        <span class="no">#01</span>
+      </div>
+      <div class="event-title">{{ page.title }}</div>
+      <div class="event-date">{{ page.date | date(format="%a %d %b %Y") }}</div>
+    </div>
+  </a>
   {% endfor %}
-</ul>
+
+  <div class="section-label" style="margin-top:30px">
+    <span class="h">COMMUNITY</span>
+    <span class="s">Comunità</span>
+  </div>
+  <div class="community">
+    <a href="https://t.me/"><span class="nm">Telegram</span><span class="hd">@buildertorino</span></a>
+    <a href="https://twitter.com/"><span class="nm">X</span><span class="hd">@buildertorino</span></a>
+    <a href="https://github.com/dev-crew-it/BitcoinBuilderTurin"><span class="nm">GitHub</span><span class="hd">/BitcoinBuilderTurin</span></a>
+  </div>
+</div>
 {% endblock content %}

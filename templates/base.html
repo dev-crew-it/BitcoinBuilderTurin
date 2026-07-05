@@ -3,60 +3,56 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>
-      Builders Turin{% if page.title %} | {{ page.title }}{% endif %}
-    </title>
+    <title>Builders Turin{% if page.title %} | {{ page.title }}{% endif %}</title>
     <meta name="description" content="Website for the Builders Turin meetup.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Builders Turin">
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
     <link href="/index.css" rel="stylesheet" type="text/css">
-     
-    <!-- TODO: Delete these once a custom domain is in place -->
-    <link href="./index.css" rel="stylesheet" type="text/css">
-    <link href="../index.css" rel="stylesheet" type="text/css">
-        
-    <style>
-      header {
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 1.75rem; /* Adjust the font size as needed */
-      }
-
-      nav a {
-        display: inline-block; /* Allow links to wrap to the next line as a whole */
-        margin-right: 10px; /* Add some spacing between links */
-      }
-    </style>
   </head>
   <body>
-    <header>
-      <h1><a href="/">Builders Turin</a></h1>
-      <nav>
-        <!-- TODO(rebrand): replace with the Turin Meetup group URL -->
-        <a href="https://www.meetup.com/" target="_blank">Meetup</a>
-        <!-- TODO(rebrand): replace with the Turin Twitter/X handle -->
-        <a href="https://twitter.com/" target="_blank">Twitter</a>
-        <a href="https://github.com/dev-crew-it/BitcoinBuilderTurin" target="_blank">GitHub</a>
-        <a href="/feed.xml">RSS</a>
-        <!-- TODO(rebrand): point BitDevs/LitDevs to Turin equivalents, or remove these two items -->
-        <a href="https://sfbitcoindevs.org" target="_blank">BitDevs</a>
-        <a href="https://sflightningdevs.org" target="_blank">LitDevs</a>
-        <!-- TODO(rebrand): replace with the Turin voting organization link -->
-        <a href="https://www.buildervoting.com/" target="_blank">Voting</a>
-        <a href="/cities" target="_blank">Cities</a>
-      </nav>
-    </header>
-    <hr>
-    <article>
-      {% block content %} {% endblock %}
-    </article>
-    <hr>
-    <footer>
-      <span>
-      </span>
-    </footer>
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-title">BUILDERS</div>
+        <div class="hero-sub">TURIN</div>
+        <div class="hero-tag">Bitcoin builders meetup · Torino — <span class="url">bitcoinbuilderturin.xyz</span></div>
+      </div>
+      <div class="skyline">
+        <div class="bldg" style="left:2%;width:74px;height:80px"></div>
+        <div class="bldg" style="left:8%;width:56px;height:114px"></div>
+        <div class="bldg cy" style="left:14%;width:96px;height:66px"></div>
+        <div class="bldg" style="left:23%;width:60px;height:126px"></div>
+        <div class="bldg" style="left:32%;width:26px;height:122px"></div>
+        <div class="bldg" style="left:36%;width:82px;height:94px"></div>
+        <div class="bldg" style="left:45%;width:62px;height:120px"></div>
+        <div class="bldg cy" style="left:52%;width:104px;height:70px"></div>
+        <div class="bldg" style="left:63%;width:68px;height:110px"></div>
+        <div class="bldg" style="left:71%;width:90px;height:84px"></div>
+        <div class="bldg" style="left:81%;width:56px;height:124px"></div>
+        <div class="bldg" style="left:87%;width:100px;height:68px"></div>
+      </div>
+    </div>
+
+    <!-- STICKY NAV -->
+    <div class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="/">BUILDERS TURIN</a>
+        <nav>
+          <a href="https://www.meetup.com/" target="_blank">Meetup</a>
+          <a href="https://twitter.com/" target="_blank">Twitter</a>
+          <a href="https://github.com/dev-crew-it/BitcoinBuilderTurin" target="_blank">GitHub</a>
+          <a href="/feed.xml">RSS</a>
+          <a href="/cities" target="_blank">Cities</a>
+        </nav>
+      </div>
+    </div>
+
+    {% block content %} {% endblock %}
+
+    <div class="footer">bitcoinbuilderturin.xyz · built by the Torino bitcoin community · 21M</div>
   </body>
 </html>
