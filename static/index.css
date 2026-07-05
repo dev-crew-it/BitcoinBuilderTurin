@@ -58,7 +58,7 @@ a:hover{color:var(--org)}
 .event-date{color:var(--cy);font-size:21px;margin-top:10px}
 
 /* COMMUNITY GRID */
-.community{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.community{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
 .community a{display:flex;flex-direction:column;gap:2px;padding:14px 16px;background:var(--panel2);border:1px solid var(--bd)}
 .community a:hover{border-color:var(--cy)}
 .community .nm{font-family:'Press Start 2P',monospace;font-size:9px;color:var(--org)}
