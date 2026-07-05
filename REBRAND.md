@@ -1,7 +1,7 @@
-# Rebrand: ₿uilder SF → runin (Bitcoin Builder Turin)
+# Rebrand: ₿uilder SF → Builders Turin
 
 This document records the rebrand of this repository to a single, consistent brand:
-**`runin`** — the Turin chapter of the Bitcoin Builder network, served at
+**`Builders Turin`** — the Turin chapter of the Bitcoin Builder network, served at
 **https://bitcoinbuilderturin.xyz**.
 
 ## Why
@@ -9,31 +9,31 @@ This document records the rebrand of this repository to a single, consistent bra
 The repository previously carried a split identity: the GitHub repo was named
 `BitcoinBuilderTurin`, but all site content and templates were branded `₿uilder SF`
 (San Francisco), with an SF custom domain and SF community links. This rebrand
-consolidates everything to **one brand (`runin`)** in **one repository**, keeping the
-multi-city "Cities" page so runin remains part of the wider Bitcoin Builder network.
+consolidates everything to **one brand (`Builders Turin`)** in **one repository**, keeping the
+multi-city "Cities" page so Builders Turin remains part of the wider Bitcoin Builder network.
 
 ## Decisions
 
-- **Brand / display name:** `runin` (Bitcoin Builder Turin).
+- **Brand / display name:** `Builders Turin`.
 - **Identity model:** Turin *chapter* — the multi-city "Cities" structure is kept; Turin
   is added alongside the existing SF / Austin / Miami / Vancouver chapters.
 - **Domain:** `bitcoinbuilderturin.xyz`.
 - **Historical event posts** (`content/builder-01.md` … `builder-07.md`): archived as-is.
-  Only the post *titles* were renamed (`₿uilder N` → `runin N`); bodies (which recap past
+  Only the post *titles* were renamed (`₿uilder N` → `Builders Turin N`); bodies (which recap past
   SF events at Presidio Bitcoin) are preserved as a historical record.
 
 ## Changes applied
 
 | File | Change |
 |---|---|
-| `config.toml` | `base_url` → `https://bitcoinbuilderturin.xyz`; added `title = "runin"` and `description` (both are consumed by `templates/feed.xml` and were previously unset, so the RSS feed title/subtitle rendered empty). Also removed the obsolete `[markdown] highlight_code = false` field — see "Incidental fix" below. |
+| `config.toml` | `base_url` → `https://bitcoinbuilderturin.xyz`; added `title = "Builders Turin"` and `description` (both are consumed by `templates/feed.xml` and were previously unset, so the RSS feed title/subtitle rendered empty). Also removed the obsolete `[markdown] highlight_code = false` field — see "Incidental fix" below. |
 | `CNAME` | `www.bitcoinbuildersf.com` → `bitcoinbuilderturin.xyz`. |
 | `static/CNAME` | **Deleted** — redundant duplicate of the root `CNAME` and contained a typo (`wwww.…`). The root `CNAME` is the single source of truth (CI copies it into `public/`). |
-| `templates/base.html` | `<title>`, `<h1>`, `meta description`, `meta author` rebranded to `runin`; GitHub nav link → `github.com/dev-crew-it/BitcoinBuilderTurin`. |
-| `templates/index.html` | Intro paragraph and logo `alt` rebranded to `runin`. |
-| `README.md` | Rewritten for runin / Bitcoin Builder Turin; added a Development section. |
+| `templates/base.html` | `<title>`, `<h1>`, `meta description`, `meta author` rebranded to `Builders Turin`; GitHub nav link → `github.com/dev-crew-it/BitcoinBuilderTurin`. |
+| `templates/index.html` | Intro paragraph and logo `alt` rebranded to `Builders Turin`. |
+| `README.md` | Rewritten for Builders Turin / Bitcoin Builder Turin; added a Development section. |
 | `content/cities/_index.md` | Added Turin to the chapter list. |
-| `content/builder-0{1..7}.md` | Post titles renamed `₿uilder N` → `runin N`. |
+| `content/builder-0{1..7}.md` | Post titles renamed `₿uilder N` → `Builders Turin N`. |
 
 ## Outstanding TODOs (marked `TODO(rebrand)` in the code)
 
@@ -45,7 +45,7 @@ These need real values before deploy; placeholders are in place so the site stil
   (`sfbitcoindevs.org`, `sflightningdevs.org`); point to Turin equivalents or remove.
 - **Voting organization link** — `templates/base.html` (was the SF org id).
 - **Logo** — `templates/index.html` still uses the SF org's GitHub avatar; replace with a
-  runin logo (drop a file in `static/` and reference it).
+  Builders Turin logo (drop a file in `static/` and reference it).
 - **Venue / cadence** — `README.md` (was "Presidio Bitcoin", the SF venue).
 
 ## Incidental fix (required for the build to pass)

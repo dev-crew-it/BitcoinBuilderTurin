@@ -1,12 +1,12 @@
 +++
-title = "runin 3"
+title = "Builders Turin 3"
 date = 2025-08-28
 +++
 
 ## [Vote on Topics](https://www.buildervoting.com/socratic_seminars/34/topics)
 
 ## Intro (5 min)
-- Chatham house rules. No photos/videos.
+- [Chatham House Rules](https://grok.com/share/bGVnYWN5LWNvcHk_0ddfe410-0f5a-466a-a2b4-835edd791e30). No photos/videos.
 - [Presidio Bitcoin design week in September](https://event.bitcoin.design)
 - 10 second intros
   - Name, what you do, what you want to get out of ₿uilder
