@@ -4,11 +4,12 @@ date = 2026-07-11
 +++
 
 ## Agenda
-- 6:30–7:00pm — Food & Drinks
-- 7:00–8:00pm — Socratic Seminar
-- 8:00–8:30pm — Demos & Startup Showcase
+- 16:30–16:45 — Networking
+- 16:45–17:00 — Presentation
+- 17:00–17:45 — Socratic Seminar
+- 17:45–18:00 — Demos & Startup Showcase
 
-A participatory night: bring questions, jump into the discussion, and share what you're building — or what you're stuck on. Plenty of Q&A throughout.
+A participatory afternoon: bring questions, jump into the discussion, and share what you're building — or what you're stuck on. Plenty of Q&A throughout.
 
 ## Intro
 - [Chatham House Rules](https://grok.com/share/bGVnYWN5LWNvcHk_0ddfe410-0f5a-466a-a2b4-835edd791e30) — no photos/video
