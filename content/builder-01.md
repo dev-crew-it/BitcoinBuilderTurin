@@ -41,3 +41,4 @@ A participatory afternoon: bring questions, jump into the discussion, and share 
 
 ## Wrap
 - What landed? What should change next month?
+- Recommended read: [Spiral x Goose: The Best is Yet to Honk](https://spiralxyz.substack.com/p/spiral-x-goose-the-best-is-yet-to)
