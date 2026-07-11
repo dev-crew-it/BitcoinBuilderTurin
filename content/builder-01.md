@@ -36,8 +36,45 @@ A participatory afternoon: bring questions, jump into the discussion, and share 
 - [BLOX, Piazza Solferino — a Torino hub](https://x.com/bloxspace_turin/status/2071615093402472659)
 
 ## Demos & Startup Showcase
-- Open mic: show what you're building — or what you're stuck on
-- Suggested: live demo of the CLN plugin manager
+
+**Slot:** 17:45–18:00 (~15 min). Format: short live demo or pitch + 1–2 min Q&A. Community proposals are tracked as [GitHub issues](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues); program notes below merge review for **Builders Turin 1** (2026-07-11).
+
+### What to do (hosts & presenters)
+
+1. **Before the event:** confirm order and timeboxes with accepted pitches (DM or issue thread).
+2. **Open with** suggested local demo: [CLN plugin manager / Coffee](https://x.com/PalazzoVincenzo/status/2068045408257900705) (~5 min).
+3. **Run community pitches** in priority order: [#11 Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) first if confirmed; [#12 MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) only if live PoC; [#13 XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) deferred to BT2.
+4. **Reserve ~3 min** for open mic if time allows (one stuck-on problem or WIP).
+5. **Experimental demos:** remind room to use **small amounts only**; no liability for loss of funds.
+
+### Community proposals — review & program (BT1)
+
+#### [#11 — Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) (Arshia-r-m) — **Accept for showcase (priority 1)**
+
+Persian 4-player card game (Hokm) with online multiplayer, AI, RTL EN/FA, and **Lightning via Breez Spark** (paid rooms, sats balance, prizes). Stack: React/TS, Node, Socket.IO, Redis. Live: [hokm.unico.quest](https://hokm.unico.quest).
+
+**Review:** Strong fit for “product on Bitcoin” and aligns with the seminar thread on Lightning + mobile (Breez). Best **show-don’t-tell** pitch of the three open issues. Caveat: app repo is private today — fine for demo; consider opening source post-event if possible.
+
+**Demo plan:** cultural intro → create/join room → Lightning entry → partial hand → prize flow (~8–10 min).
+
+#### [#12 — MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) (mgrassotti) — **Hold for seminar Q&A or short PoC demo (priority 2)**
+
+Protocol idea for mass adoption: Bitcoin payments anchored to a **temporary** stable fiat price, P2P, no shitcoins. [Slides](https://github.com/user-attachments/files/29888800/MATPay_Eng.pdf), PoC: [eur-token-poc](https://github.com/mgrassotti/eur-token-poc).
+
+**Review:** Relevant to adoption and RGB/Lightning narrative, but topic can run long in debate. Prefer **live PoC** over slides-only; if only slides fit in 15 min window, fold into seminar discussion instead of showcase.
+
+**If showcased:** 5 min PoC transfer + 3 min “what is / isn’t a stablecoin” framing.
+
+#### [#13 — XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) (artcava) — **Defer to Builders Turin 2 or lightning talk (priority 3)**
+
+AI social automation (C#/.NET, Azure Functions, orchestrator + sender plugins). [XPoster](https://github.com/artcava/XPoster).
+
+**Review:** Good “AI tools for builders” case study and Italian OSS example, but **not** core Bitcoin/LN/Nostr product. Better as a **Builders 2** slot (community comms / responsible automation) than competing with Lightning demos on BT1.
+
+### Fallback
+
+- Open mic: show what you're building — or what you're stuck on.
+- Suggested local demo if no community pitch confirms: live demo of the CLN plugin manager.
 
 ## Wrap
 - What landed? What should change next month?

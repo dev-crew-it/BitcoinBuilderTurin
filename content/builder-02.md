@@ -50,6 +50,8 @@ A participatory afternoon: bring questions, jump into the discussion, and share 
 ## Demos & Startup Showcase
 - Open mic: show what you're building — or what you're stuck on
 - Suggested: live demo of [White Noise](https://www.whitenoise.chat/) + walkthrough of the [Dark Matter](https://github.com/marmot-protocol/darkmatter) CGKA engine and test harness
+- **Proposed (issue TBD):** [Sonar](https://sonarprivacy.xyz/) — Bluetooth + Nostr E2EE messenger and builder/agent workflows ([draft proposal](../proposals/sonar-builders-2.md))
+- **Carry-over from BT1:** [#13 XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) — AI comms automation for OSS communities (if accepted for BT2)
 
 ## Wrap
 - What landed? What should change next month?
