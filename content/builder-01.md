@@ -42,7 +42,7 @@ A participatory afternoon: bring questions, jump into the discussion, and share 
 **Program order (confirmed):**
 
 1. [#11 — Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) *(accepted)* — Arshia-r-m · online card game, Lightning (Breez Spark) · [hokm.unico.quest](https://hokm.unico.quest)
-2. ~~[#13 — XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) *(accepted → cancelled on program)* — artcava · AI social automation · [XPoster](https://github.com/artcava/XPoster)~~
+2. ~~[#13 — XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) *(cancelled on program)*~~
 3. [#12 — MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) *(accepted)* — mgrassotti · Bitcoin payments / temporary fiat anchor · [eur-token-poc](https://github.com/mgrassotti/eur-token-poc)
 4. [#15 — Sonar](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15) *(accepted)* — Vincenzo Palazzo · [sonarprivacy.xyz](https://sonarprivacy.xyz/) *(closing demo — preview [Builders Turin 2](@/builder-02.md))*
 
