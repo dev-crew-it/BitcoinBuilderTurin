@@ -37,15 +37,15 @@ A participatory afternoon: bring questions, jump into the discussion, and share 
 
 ## Demos & Startup Showcase
 
-**When:** 17:45–18:15. Short live demos and pitches; discussion and Q&A on each [GitHub proposal](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues).
+**When:** 17:45–18:15. Short live demos and pitches; each pitch was [accepted on GitHub](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues?q=is%3Aissue+is%3Aclosed) (issues #11–#15).
 
-**Program order (proposed):**
+**Program order (confirmed):**
 
 1. [CLN plugin manager / Coffee](https://x.com/PalazzoVincenzo/status/2068045408257900705) — Vincenzo Palazzo (local)
-2. [#11 — Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) — Arshia-r-m · online card game, Lightning (Breez Spark) · [hokm.unico.quest](https://hokm.unico.quest)
-3. [#13 — XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) — artcava · AI social automation · [XPoster](https://github.com/artcava/XPoster)
-4. [#12 — MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) — mgrassotti · Bitcoin payments / temporary fiat anchor · [eur-token-poc](https://github.com/mgrassotti/eur-token-poc)
-5. [#15 — Sonar](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15) — Vincenzo Palazzo · [sonarprivacy.xyz](https://sonarprivacy.xyz/) *(closing demo — preview [Builders Turin 2](@/builder-02.md))*
+2. [#11 — Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) *(accepted)* — Arshia-r-m · online card game, Lightning (Breez Spark) · [hokm.unico.quest](https://hokm.unico.quest)
+3. [#13 — XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) *(accepted)* — artcava · AI social automation · [XPoster](https://github.com/artcava/XPoster)
+4. [#12 — MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) *(accepted)* — mgrassotti · Bitcoin payments / temporary fiat anchor · [eur-token-poc](https://github.com/mgrassotti/eur-token-poc)
+5. [#15 — Sonar](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15) *(accepted)* — Vincenzo Palazzo · [sonarprivacy.xyz](https://sonarprivacy.xyz/) *(closing demo — preview [Builders Turin 2](@/builder-02.md))*
 
 - Open mic if time remains
 - Experimental demos: use small amounts only
