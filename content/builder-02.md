@@ -50,8 +50,7 @@ A participatory afternoon: bring questions, jump into the discussion, and share 
 ## Demos & Startup Showcase
 - Open mic: show what you're building — or what you're stuck on
 - Suggested: live demo of [White Noise](https://www.whitenoise.chat/) + walkthrough of the [Dark Matter](https://github.com/marmot-protocol/darkmatter) CGKA engine and test harness
-- **Proposed (issue [#15](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15)):** [Sonar](https://sonarprivacy.xyz/) — full demo + Marmot/White Noise bridge ([proposal](../proposals/sonar-builders-2.md)). *Teaser delivered at **BT1 closing demo** (11 Jul).*
-- **Carry-over from BT1:** [#13 XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) — AI comms automation for OSS communities (if accepted for BT2)
+- **Proposed (issue [#15](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15)):** [Sonar](https://sonarprivacy.xyz/) — full demo + Marmot/White Noise bridge ([proposal](../proposals/sonar-builders-2.md)). *Teaser at **BT1 closing demo** (11 Jul).*
 
 ## Wrap
 - What landed? What should change next month?
