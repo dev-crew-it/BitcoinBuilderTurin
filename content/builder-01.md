@@ -37,55 +37,18 @@ A participatory afternoon: bring questions, jump into the discussion, and share 
 
 ## Demos & Startup Showcase
 
-**Slot:** 17:45–18:15 (~30 min). Format: short live demo or pitch + Q&A; **closing slot reserved** for Sonar (BT2 preview). Community proposals: [GitHub issues](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues).
+**When:** 17:45–18:15. Short live demos and pitches; discussion and Q&A on each [GitHub proposal](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues).
 
-### What to do (hosts & presenters)
+**Program order (proposed):**
 
-1. **Before the event:** confirm order and timeboxes with accepted pitches (DM or issue thread).
-2. **Open with** local demo: [CLN plugin manager / Coffee](https://x.com/PalazzoVincenzo/status/2068045408257900705) (~5 min) — or fold into seminar if time is tight.
-3. **Community pitches (BT1):** [#11 Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) if confirmed (~8 min). [#13 XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) — accept for showcase (~5–7 min, architecture + Bitcoin-community use case). [#12 MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) only with live PoC; otherwise seminar.
-4. **Closing demo (finale giornata):** [**Sonar**](https://sonarprivacy.xyz/) — Vincenzo Palazzo ([#15](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15)): Bluetooth + Nostr E2EE, teaser **Builders Turin 2** (25 Sep). ~7–10 min — closing slot fixed.
-5. **Open mic** only if a scheduled pitch cancels — do not bump Sonar or confirmed #13.
-6. **Experimental demos:** small amounts only; no liability for loss of funds.
+1. [CLN plugin manager / Coffee](https://x.com/PalazzoVincenzo/status/2068045408257900705) — Vincenzo Palazzo (local)
+2. [#11 — Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) — Arshia-r-m · online card game, Lightning (Breez Spark) · [hokm.unico.quest](https://hokm.unico.quest)
+3. [#13 — XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) — artcava · AI social automation · [XPoster](https://github.com/artcava/XPoster)
+4. [#12 — MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) — mgrassotti · Bitcoin payments / temporary fiat anchor · [eur-token-poc](https://github.com/mgrassotti/eur-token-poc)
+5. [#15 — Sonar](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15) — Vincenzo Palazzo · [sonarprivacy.xyz](https://sonarprivacy.xyz/) *(closing demo — preview [Builders Turin 2](@/builder-02.md))*
 
-### Community proposals — review & program (BT1)
-
-#### [#11 — Hokm](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/11) (Arshia-r-m) — **Accept for showcase (priority 1)**
-
-Persian 4-player card game (Hokm) with online multiplayer, AI, RTL EN/FA, and **Lightning via Breez Spark** (paid rooms, sats balance, prizes). Stack: React/TS, Node, Socket.IO, Redis. Live: [hokm.unico.quest](https://hokm.unico.quest).
-
-**Review:** Strong fit for “product on Bitcoin” and aligns with the seminar thread on Lightning + mobile (Breez). Best **show-don’t-tell** pitch of the three open issues. Caveat: app repo is private today — fine for demo; consider opening source post-event if possible.
-
-**Demo plan:** cultural intro → create/join room → Lightning entry → partial hand → prize flow (~8–10 min).
-
-#### [#12 — MATPay](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/12) (mgrassotti) — **Hold for seminar Q&A or short PoC demo (priority 2)**
-
-Protocol idea for mass adoption: Bitcoin payments anchored to a **temporary** stable fiat price, P2P, no shitcoins. [Slides](https://github.com/user-attachments/files/29888800/MATPay_Eng.pdf), PoC: [eur-token-poc](https://github.com/mgrassotti/eur-token-poc).
-
-**Review:** Relevant to adoption and RGB/Lightning narrative, but topic can run long in debate. Prefer **live PoC** over slides-only; if only slides fit in 15 min window, fold into seminar discussion instead of showcase.
-
-**If showcased:** 5 min PoC transfer + 3 min “what is / isn’t a stablecoin” framing.
-
-#### [#13 — XPoster](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/13) (artcava) — **Accept for showcase (BT1)**
-
-AI social automation (C#/.NET, Azure Functions, orchestrator + sender plugins). [XPoster](https://github.com/artcava/XPoster).
-
-**Review:** Fits the meetup theme (“product, design, and AI tools for people building on Bitcoin”) as **AI tooling for OSS / event communities** — Italian open source, clear architecture story. Scheduled on **Builders Turin 1** after Hokm (or after CLN open) and **before** the Sonar closing demo.
-
-**Demo plan:** 2 min problem → 3 min orchestrator/plugin flow → 2 min adapting for Bitcoin-builder comms (events, issues, announcements). Confirm with @artcava before 11 July.
-
-#### Closing demo — Sonar (Vincenzo Palazzo) — **Confirmed finale BT1** ([#15](https://github.com/dev-crew-it/BitcoinBuilderTurin/issues/15))
-
-[Sonar](https://sonarprivacy.xyz/): private messenger (Bluetooth proximity + Nostr, E2EE, npub — no phone number).
-
-**Role on BT1:** **Last demo of the day** — bridge from Lightning/product (BT1) to **Builders Turin 2** (25 Sep): EU Chat Control, [White Noise](https://www.whitenoise.chat/), [Marmot / Dark Matter](https://github.com/marmot-protocol). Short live demo (nearby + encrypted DM); invite room to BT2 for the deep dive.
-
-**Demo plan:** problem (30 s) → live Sonar (5 min) → BT2 agenda preview + date (2 min). Full proposal: [sonar-builders-2.md](../proposals/sonar-builders-2.md).
-
-### Fallback
-
-- Open mic: show what you're building — or what you're stuck on.
-- Suggested local demo if no community pitch confirms: live demo of the CLN plugin manager.
+- Open mic if time remains
+- Experimental demos: use small amounts only
 
 ## Wrap
 - What landed? What should change next month?
