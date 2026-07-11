@@ -10,7 +10,12 @@ draft = true
 
 **Presenter:** Vincenzo Palazzo  
 **Site:** [sonarprivacy.xyz](https://sonarprivacy.xyz/)  
-**Target edition:** Builders Turin 2 (2026-09-25), Demos & Startup Showcase and/or seminar bridge to privacy track
+**Editions:**
+
+| When | Role |
+|------|------|
+| **Builders Turin 1** (2026-07-11) | **Closing demo** (~7–10 min) — live Sonar + preview BT2 agenda (25 Sep) |
+| **Builders Turin 2** (2026-09-25) | **Full session** (~15–20 min) — architecture, Marmot/White Noise bridge, agents |
 
 ### What Sonar is
 
@@ -30,7 +35,13 @@ Builders Turin 1 focuses on Lightning reliability, OSS infra, and local CLN tool
 - How **Hermes-style agents** (tools + memory over Nostr/Sonar) extend “building on Bitcoin” into **human–agent** chat without Telegram phone numbers
 - Bridge from **payments (BT1)** to **private coordination (BT2)**
 
-### Proposed session shape (~15–20 min)
+### BT1 closing demo (finale giornata, 11 July)
+
+1. **Hook** (30 s): after Lightning & products — why messaging identity matters next  
+2. **Live** (5 min): Sonar nearby + encrypted DM on Nostr  
+3. **BT2 preview** (2 min): Chat Control, White Noise, Marmot — save the date **25 Sep**
+
+### BT2 full session shape (~15–20 min)
 
 1. **Problem** (2 min): phone-number messengers vs npub-native identity  
 2. **Demo** (8 min): pair nearby + send encrypted DM; optional agent reply on Sonar  
@@ -45,4 +56,5 @@ Builders Turin 1 focuses on Lightning reliability, OSS infra, and local CLN tool
 
 ### Ask
 
-Add to **Builders Turin 2** agenda under Demos (suggested) or Local spotlight, and confirm slot with organizers.
+- **BT1:** Closing demo slot confirmed in `builder-01.md` (do not move for open mic).  
+- **BT2:** Add to Demos or Local spotlight; expand Marmot/White Noise narrative with Sonar as on-ramp.
